@@ -1,0 +1,532 @@
+/* Top Wrapper section */
+#top__wrapper-section {
+    height: 700px;
+    width: 100%;
+    position: relative;
+	overflow-y: hidden;
+}
+.top__wrapper-title {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 80px;
+    background: #0057B7;
+    padding: 16px 31px;
+    width: 70%;
+    margin-bottom: 0px;
+}
+.top__wrapper-caption {
+    background: #FFD700;
+    padding: 28px 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147%;
+    margin-left: 10%;
+}
+.top__wrapper-caption p {
+    width: 97%;
+}
+.top__wrapper-form {
+    background: white;
+    padding: 21px 23px;
+    position: absolute;
+    width: 30%;
+    min-height: 380px;
+	height: 630px;
+    right: 0.5%;
+    top: -50%;
+	overflow-y: hidden;
+}
+.top__wrapper-form-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+}
+.top__wrapper-form-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+.top__wrapper-form-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147%;
+    color: #0057B7;
+    border: 1px solid #0057B7;
+    width: 30%;
+    text-align: center;
+    padding: 13px 0px;
+}
+.top__wrapper-form-input {
+    background: #FFFFFF;
+    border: 1px solid #9FA5B1;
+    text-align: center;
+    color: #9FA5B1;
+    padding: 10px 0px;
+    margin-top: 17px;
+    margin-bottom: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+.top__wrapper-form-submit {
+    background: #0057B7;
+    width: 100%;
+    border: none;
+    padding: 19.5px 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* How it works section */
+#works__section {
+    height: 850px;
+// background: url(https://helpukraine.wht.agency/wp-content/uploads/2022/04/map-6.jpg), #0057B7;
+
+//     background-size: 80%;
+    background-position: 50% -30%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.works__section-title {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 18px;
+}
+.works__section-caption {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147%;
+}
+/* Numbers section */
+#numbers__section {
+    padding: 80px 0px;
+    background: url(../images/number_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.number__block-img {
+    margin-bottom: 24px;
+}
+.number__block-title h2 {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+/*     margin-bottom: 12px; */
+}
+.number__block-caption {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+/* Our mission section */
+#mission__section {
+    padding-top: 150px;
+    padding-bottom: 55px;
+}
+.mission__title {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #0057B7;
+    margin-bottom: 40px;
+}
+.mission__img {
+    margin-bottom: 50px;
+}
+.mission__btn {
+    max-width: 267px;
+}
+/* Help section */
+#help__section {
+    padding: 120px 0px;
+}
+.help__block {
+    background: #FFFFFF;
+    border: 2px solid #0057B7;
+    box-sizing: border-box;
+    position: relative;
+}
+.help__block-img {
+    height: 190px;
+    width: 100%;
+    border-bottom: 2px solid #0057B7;
+}
+.help__block-caption {
+    padding-top: 25px;
+    /*padding-bottom: 52px;*/
+	padding-bottom: 10px;
+    padding-left: 48px;
+    padding-right: 48px;
+    min-height: 130px;
+}
+.help__block-sign {
+    padding: 12px 20px;
+    background: #FFD700;
+    top: -5%;
+    position: absolute;
+    left: -5%;
+}
+.donate__help {
+    background: #0057B7;
+    padding: 22px 32px;
+}
+.donate__help-form {
+    margin-top: 47px;
+}
+.donate__help .top__wrapper-form-prices {
+    width: 35%;
+}
+.donate__help .top__wrapper-form-price {
+    color: white;
+    border: 1px solid white;
+}
+.donate__help .donate__help-text {
+    width: 30%;
+}
+.donate__help .donate__help-text input {
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #9FA5B1;
+}
+.donate__help-sub {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+.donate__help-sub button {
+    width: 70%;
+    background: white;
+}
+/* Team section */
+#team__section {
+    padding-top: 117px;
+    padding-bottom: 78px;
+}
+.team__block {
+    background: #FFFFFF;
+    border: 1px solid #0057B7;
+    box-sizing: border-box;
+    padding: 26px 32px;
+    min-height: 226px;
+    margin-top: 32px;
+    height: auto;
+}
+
+.team__headline {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+}
+.team__block-title {
+    padding: 10px;
+    background: #FFD700;
+}
+.team__block-caption {
+    margin-top: 12px;
+}
+.team__block-last {
+    border: 1px solid #0057B7;
+    // background: url(../img/home/team_block.svg), #FFD700;
+     background: #FFD700;
+    background-repeat: no-repeat;
+    height: 226px;
+    margin-top: 32px;
+}
+.team__block-more {
+    width: 100%;
+    background: #0057B7;
+    padding: 19.5px 24px;
+}
+.team__row-more {
+    margin-top: 41px;
+}
+.team__donate-btn {
+    background: linear-gradient(270deg, #0057B7 0%, #617EB7 49.87%, #FFD700 100%);
+    width: 100%;
+    border: none;
+    padding: 19.75px 26.5px;
+}
+/* Involved bg section */
+#involved__bg-section {
+    height: 329px;
+    width: 100%;
+}
+/* Involved section */
+#involved__section {
+    padding-top: 80px;
+    padding-bottom: 158px;
+    background: #FFD700;
+    overflow: hidden;
+    position: relative;
+}
+.involved__section-title {
+    -webkit-text-stroke: 1px #0057B7;
+    color: #FFD700;
+    width: 150vw;
+    position: absolute;
+    left: -30%;
+    text-align: center;
+    top: 72px;
+}
+.involved__blocks-row {
+    margin-top: 152px;
+}
+.involved__block {
+    background: #FFFFFF;
+}
+.involved__block-content {
+    padding: 24px;
+    min-height: 250px;
+}
+.involved__block-link {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.involved__block-link a {
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.involved__block-link:hover,
+.involved__block-link:hover a {
+    background: #0057B7;
+    color: white;
+    width: 100%;
+}
+@media screen and ( max-width: 1220px ) {
+	.team__block, .team__block-last {
+		min-height: 270px;
+    	height: auto;
+	}
+}
+@media screen and ( max-width: 890px ) {
+	.top__wrapper-caption p {
+		font-size: 16px;
+		width: 50%;
+	}
+	.top__wrapper-form {
+		width: 40%;
+		top: 0%;
+	}
+	#works__section {
+		padding-bottom: 40px;
+		background-size: 100%;
+		background-position: 50% 10%;
+	}
+	.number__block-title h2 {
+		font-size: 27px;
+	}
+	.team__block {
+		padding: 25px 18px;
+	}
+}
+@media screen and ( min-width: 768px ) {
+	.top__wrapper-form {
+		display: none;
+	}
+}
+@media screen and ( max-width: 768px ) {
+	#mc_embed_signup form {
+		padding-left: 0 !important;
+	}
+	h2.team__headline {
+		font-size: 34px;
+	}
+	.team__block, .team__block-last {
+		min-height: 243px;
+	}
+    /* Top Wrapper section */
+    #top__wrapper-section {
+        height: 100%;
+    }
+    .top__wrapper-title {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 50px;
+        position: relative;
+    }
+    .top__wrapper-caption {
+        margin-top: -20px;
+        margin-left: 12%;
+        font-size: 16px;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .top__wrapper-caption p {
+        width: 100%;
+    }
+    .top__wrapper-form {
+        position: relative;
+        width: 100%;
+        right: inherit;
+        margin-bottom: 30px;
+		top: 50px;
+        border: 1px solid #0057B7;
+    }
+    /* Help section */
+    #help__section {
+        padding: 60px 0px;
+    }
+    .help__block-caption {
+        padding-left: 32px;
+        padding-right: 32px;
+        min-height: 160px;
+    }
+    .help__block-sign {
+        top: -8%;
+        left: 5%;
+    }
+    .donate__help {
+        display: none;
+    }
+    /* Donate section */
+    .donate__help .top__wrapper-form-prices {
+        width: 100%;
+    }
+    .donate__help-form {
+        flex-direction: column;
+    }
+    .donate__help .donate__help-text {
+        width: 100%;
+        height: 50px;
+    }
+    .donate__help .donate__help-text input {
+        margin-left: 0px!important;
+        margin-top: 15px;
+    }
+    .donate__help-sub {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .donate__help-sub button {
+        width: 100%;
+    }
+    /* Number section */
+    .number__block {
+        margin-bottom: 60px;
+    }
+    .number__block:last-child {
+        margin-bottom: 0px;
+    }
+
+    /* works section */
+    #works__section {
+        height: 750px;
+        background-position: 0 110%;
+        align-items: flex-start!important;
+        padding-top: 60px;
+        background-size: 100%;
+    }
+    /* Mission section */
+    #mission__section {
+        padding-top: 50px;
+    }
+    .mission__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .mission__img {
+        width: 100%;
+        display: none;
+    }
+    .mission__btn {
+        max-width: 100%;
+    }
+    .mission__analytics-img {
+        margin-top: 50px;
+    }
+    /* Team section */
+    #team__section {
+        padding-top: 50px;
+    }
+    .team__donate-btn {
+        display: none!important;
+    }
+    /* Involved section */
+    #involved__section {
+        padding-bottom: 50px;
+        padding-top: 0px;
+    }
+    .involved__blocks-row .col-md-3 {
+        margin-bottom: 30px;
+    }
+    .involved__blocks-row .col-md-3:last-child {
+        margin-bottom: 0px;
+    }
+    .involved__section-title {
+        font-size: 34px;
+        width: 185vw;
+    }
+    /* Subscribe section */
+    #subscribe__section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+	h2.works__section-title.text-white {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 34px;
+		line-height: 120%;
+		letter-spacing: 0.25px;
+		color: #FFFFFF;
+	}
+	p.works__section-caption {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 177%;
+		letter-spacing: 0.25px;
+		color: #FFFFFF;
+		flex: none;
+		order: 1;
+		flex-grow: 0;
+		margin: 10px 0px;
+	}
+}
+@media screen and ( max-width: 425px ) {
+	#works__section {
+		background-position: 60% 103%;
+		background-size: 140%;
+	}
+}
