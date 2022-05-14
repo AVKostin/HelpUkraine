@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Retroica';
+    src: url(../fonts/Retroica.ttf);
+}
+.headline-1 {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+}
+.headline-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 61px;
+    line-height: 74px;
+    letter-spacing: -0.5px;
+}
+.headline-3 {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+.headline-4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.25px;
+}
+.headline-5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: -0.75px;
+}
+.headline-6 {
+    font-family: 'Retroica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.1px;
+}
+.headline-7 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147%;
+    letter-spacing: 0.15px;
+}
+.subtitle-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+}
+.subtitle-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+}
+.body-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 0.5px;
+}
+.body-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+}
+.button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+.caption {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+}
+.color-blue {
+    color: #0057B7;
+}
+.color-grey {
+    color: rgba(0, 0, 0, 0.6);
+}
+.text-link {
+    letter-spacing: 0.15px;
+    text-decoration-line: underline;
+    font-weight: 200;
+}
+@media screen and ( max-width: 768px ) {
+    .headline-1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .headline-3 {
+        font-size: 36px;
+    }
+    .headline-7 {
+        font-size: 16px;
+    }
+}
