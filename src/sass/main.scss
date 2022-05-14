@@ -1,0 +1,25 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+//Стили для файла с примером HTML-фрагмента
+@import './container';
+@import './header';
+@import './fonts';
+@import './home';
+@import './pagenavi-css';
+@import './style';
+@import './styles';
+@import './bootstrap';
+@import './classic-10_7';
+// @import './flex';
+
+// @import '../node_modules/bootstrap/scss/root';
+// @import '../node_modules/bootstrap/scss/containers';
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/images";
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "/node_modules/bootstrap/scss/functions";
