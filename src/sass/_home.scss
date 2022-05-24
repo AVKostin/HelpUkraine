@@ -9,13 +9,14 @@
     font-family: 'Retroica';
     font-style: normal;
     font-weight: 400;
-    font-size: 74px;
+    font-size: 55px;
     line-height: 80px;
     background: #0057B7;
     padding: 16px 31px;
-    width: 70%;
+    width: 85%;
     margin-bottom: 0px;
 }
+
 .top__wrapper-caption {
     background: #FFD700;
     padding: 28px 32px;
@@ -26,6 +27,8 @@
     line-height: 147%;
     margin-left: 10%;
 }
+
+
 .top__wrapper-caption p {
     width: 97%;
 }
@@ -147,14 +150,14 @@
 }
 /* Our mission section */
 #mission__section {
-    padding-top: 150px;
-    padding-bottom: 55px;
+    margin-top: 60px;
+    margin-bottom: 55px;
 }
 .mission__title {
     font-family: 'Retroica';
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 80px;
     color: #0057B7;
     margin-bottom: 40px;
@@ -167,26 +170,32 @@
 }
 /* Help section */
 #help__section {
-    padding: 120px 0px;
+    padding: 60px 0px;
 }
 .help__block {
     background: #FFFFFF;
-    border: 2px solid #0057B7;
+    // border: 2px solid #0057B7;
     box-sizing: border-box;
     position: relative;
+    height: 100%;
+    box-shadow: 0px 4px 4px rgba(17, 0, 255, 0.427), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-repeat: 4px;
 }
 .help__block-img {
     height: 190px;
     width: 100%;
-    border-bottom: 2px solid #0057B7;
+    // border-bottom: 2px solid #0057B7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .help__block-caption {
-    padding-top: 25px;
+    padding-top: 22px;
     /*padding-bottom: 52px;*/
 	padding-bottom: 10px;
-    padding-left: 48px;
-    padding-right: 48px;
-    min-height: 130px;
+    padding-left: 23px;
+    padding-right: 33px;
+    min-height: 142px;
 }
 .help__block-sign {
     padding: 12px 20px;
@@ -194,6 +203,9 @@
     top: -5%;
     position: absolute;
     left: -5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+//   border-radius: 4px;
 }
 .donate__help {
     background: #0057B7;
@@ -234,10 +246,10 @@
     background: white;
 }
 /* Team section */
-#team__section {
-    padding-top: 117px;
-    padding-bottom: 78px;
-}
+// #team__section {
+//     padding-top: 117px;
+//
+// }
 .team__block {
     background: #FFFFFF;
     border: 1px solid #0057B7;
@@ -246,6 +258,9 @@
     min-height: 226px;
     margin-top: 32px;
     height: auto;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
 .team__headline {
@@ -254,6 +269,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 64px;
+    color: #0057B7;
 }
 .team__block-title {
     padding: 10px;
@@ -269,6 +285,9 @@
     background-repeat: no-repeat;
     height: 226px;
     margin-top: 32px;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 .team__block-more {
     width: 100%;
@@ -277,13 +296,25 @@
 }
 .team__row-more {
     margin-top: 41px;
+    margin-bottom: 45px;
 }
 .team__donate-btn {
     background: linear-gradient(270deg, #0057B7 0%, #617EB7 49.87%, #FFD700 100%);
     width: 100%;
     border: none;
     padding: 19.75px 26.5px;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
+.team__donate-btn:hover,
+.team__donate-btn:focus {
+    background: linear-gradient(270deg, #FFD700  0%, #617EB7 49.87%,#0057B7  100%);
+}
+
+
+
+
 /* Involved bg section */
 #involved__bg-section {
     height: 329px;
@@ -296,6 +327,8 @@
     background: #FFD700;
     overflow: hidden;
     position: relative;
+
+
 }
 .involved__section-title {
     -webkit-text-stroke: 1px #0057B7;
@@ -305,12 +338,20 @@
     left: -30%;
     text-align: center;
     top: 72px;
+    text-shadow: 1px 5px lightgrey;
+
 }
+
 .involved__blocks-row {
     margin-top: 152px;
 }
 .involved__block {
     background: #FFFFFF;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    height:100%;
+    margin-top: 30px;
 }
 .involved__block-content {
     padding: 24px;
@@ -367,7 +408,8 @@
 }
 @media screen and ( max-width: 768px ) {
 	#mc_embed_signup form {
-		padding-left: 0 !important;
+		padding-left: 0;
+        margin: 0 auto;
 	}
 	h2.team__headline {
 		font-size: 34px;
@@ -406,17 +448,21 @@
     }
     /* Help section */
     #help__section {
-        padding: 60px 0px;
+        padding: 20px 0px;
     }
     .help__block-caption {
         padding-left: 32px;
         padding-right: 32px;
         min-height: 160px;
+
     }
     .help__block-sign {
         top: -8%;
         left: 5%;
-    }
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      }
+
     .donate__help {
         display: none;
     }
@@ -461,6 +507,7 @@
     /* Mission section */
     #mission__section {
         padding-top: 50px;
+        margin: 0 auto;
     }
     .mission__title {
         font-size: 40px;
@@ -482,6 +529,7 @@
     }
     .team__donate-btn {
         display: none!important;
+        margin-bottom: 30px;
     }
     /* Involved section */
     #involved__section {
