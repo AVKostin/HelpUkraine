@@ -158,8 +158,8 @@ section {
 /* Subscribe section */
 #subscribe__section {
     background: white;
-    padding-top: 122px;
-    padding-bottom: 142px;
+    padding-top: 70px;
+    padding-bottom: 80px;
 }
 .subscribe__form .subscribe__email-input {
     background: #FFFFFF;
@@ -180,12 +180,13 @@ section {
 	border-radius: 0p;
 }
 #mc_embed_signup .button {
-	margin-left: 15px;
+	// margin-left: 15px;
     background: #0057B7;
     border: none;
 	border-radius: 0px;
     height: 55px;
     padding: 11.5px 51px;
+	margin-top:15px;
 }
 #mc_embed_signup .mc-field-group {
 	padding-bottom: 0px;
@@ -199,10 +200,10 @@ section {
 }
 #footer__section .container {
     border-top: 1.5px solid #0057B7;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .footer__social-media-row {
-    padding-bottom: 77px;
+    padding-bottom: 33px;
 }
 div.mce_inline_error {
     position: absolute;
@@ -369,7 +370,7 @@ div.mce_inline_error {
     }
     .subscribe__form input[type="submit"] {
         width: 100%;
-        max-width: 320px;
+        max-width: 370px;
         margin-left: 0px;
     }
 	.menu-item-has-children .sub-menu {
@@ -433,12 +434,15 @@ div.mce_inline_error {
 
 }
 @media screen and ( max-width: 425px ) {
+
 	.subscribe__form {
 		flex-direction: column;
 		width: 55%;
+
 	}
 	.subscribe__form .subscribe__email-input {
-		margin-bottom: 15px;
+		// margin-bottom: 15px;
+
 	}
 	form .subscribe__form .clear, #mc_embed_signup input#mc-embedded-subscribe {
 		width: 98%;
@@ -446,5 +450,7 @@ div.mce_inline_error {
 		margin: 0;
 		justify-content: center;
 		display: flex;
+		margin-left: -15px;
+
 	}
 }
